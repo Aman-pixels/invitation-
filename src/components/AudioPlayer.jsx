@@ -19,7 +19,7 @@ const AudioPlayer = () => {
     <div className="fixed bottom-6 right-6 z-50">
       <audio 
         ref={audioRef}
-        src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" // Placeholder romantic music
+        src="/othaiyadi-pathayila-koshalworldcom_YHRe138r.mp3" 
         loop 
       />
       <motion.button

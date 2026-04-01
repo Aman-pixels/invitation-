@@ -11,7 +11,7 @@ const CelebrationDetails = () => {
     {
       icon: <Clock className="w-6 h-6 text-darkgold mx-auto mb-4" strokeWidth={1.5} />,
       title: 'The Time',
-      content: 'Sehra Bandi: 6:00 PM | Barat Departure: 8:00 PM'
+      content: 'Baraat: 6:00 PM | Barat Departure: 8:00 PM'
     },
     {
       icon: <MapPin className="w-6 h-6 text-darkgold mx-auto mb-4" strokeWidth={1.5} />,

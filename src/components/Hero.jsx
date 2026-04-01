@@ -51,7 +51,7 @@ const Hero = () => {
             className="font-sans text-sm pb-10 text-taupe leading-relaxed"
           >
             Son of Smt Anu & Sh. Raj Kumar Saini<br/>
-            Abrol Nagar, Pathankot
+            Golden Avenue, Pathankot
           </motion.p>
 
           <span className="font-script text-3xl md:text-4xl text-taupe/80 my-2">

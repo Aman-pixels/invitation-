@@ -9,7 +9,7 @@ const events = [
     image: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
   },
   {
-    title: 'Sehra Bandi',
+    title: 'Baraat',
     date: 'Saturday, April 25, 2026',
     time: '6:00 PM',
     location: 'Departure of Barat at 8:00 PM for Udhay Resort',
