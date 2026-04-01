@@ -41,24 +41,6 @@ const Hero = () => {
           className="flex flex-col items-center"
         >
           <h1 className="font-script text-6xl md:text-8xl text-darkgold mb-2">
-            Damini Saini
-          </h1>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 1, delay: 0.6 }}
-            className="font-sans text-sm pb-6 text-taupe leading-relaxed"
-          >
-            Daughter of Smt. Savita & Sh. Rakesh Saini<br/>
-            Vill. Dhobra, Pathankot
-          </motion.p>
-
-          <span className="font-script text-3xl md:text-4xl text-taupe/80 my-2">
-            and
-          </span>
-
-          <h1 className="font-script text-6xl md:text-8xl text-darkgold mt-6 mb-2">
             Rohin Saini
           </h1>
           <motion.p
@@ -70,6 +52,24 @@ const Hero = () => {
           >
             Son of Smt Anu & Sh. Raj Kumar Saini<br/>
             Abrol Nagar, Pathankot
+          </motion.p>
+
+          <span className="font-script text-3xl md:text-4xl text-taupe/80 my-2">
+            and
+          </span>
+
+          <h1 className="font-script text-6xl md:text-8xl text-darkgold mt-2 mb-2">
+            Damini Saini
+          </h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1, delay: 0.6 }}
+            className="font-sans text-sm pb-6 text-taupe leading-relaxed"
+          >
+            Daughter of Smt. Savita & Sh. Rakesh Saini<br/>
+            Vill. Dhobra, Pathankot
           </motion.p>
         </motion.div>
       </div>

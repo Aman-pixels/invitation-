@@ -10,7 +10,7 @@ const Footer = () => {
         transition={{ duration: 1 }}
       >
         <h2 className="font-script text-6xl md:text-8xl text-darkgold mb-6 opacity-90">
-          Damini & Rohin
+          Rohin & Damini
         </h2>
         <div className="w-16 h-px bg-darkgold/30 mx-auto mb-6"></div>
         <p className="font-sans text-xs tracking-[0.3em] text-taupe/70 uppercase">

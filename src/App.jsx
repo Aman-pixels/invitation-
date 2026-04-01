@@ -2,6 +2,7 @@ import Hero from './components/Hero';
 import CelebrationDetails from './components/CelebrationDetails';
 import Events from './components/Events';
 import Footer from './components/Footer';
+import AudioPlayer from './components/AudioPlayer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <CelebrationDetails />
         <Events />
         <Footer />
+        <AudioPlayer />
       </div>
     </div>
   );
