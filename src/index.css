@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #FFFDF9;
+  --color-gold: #D4AF37;
+  --color-darkgold: #9E803B;
+  --color-taupe: #6b5d4d;
+  --color-dark: #333333;
+  
+  --font-script: "Great Vibes", cursive;
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Lato", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-ivory text-taupe font-sans antialiased selection:bg-gold/30;
+  }
+}
